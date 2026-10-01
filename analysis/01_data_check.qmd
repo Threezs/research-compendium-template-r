@@ -1,0 +1,25 @@
+---
+title: "01 — Data check"
+format:
+  html:
+    toc: true
+execute:
+  freeze: auto
+---
+
+This page is intentionally small. It should show that the project can read the registered input and write a deterministic output.
+
+~~~{r}
+#| label: load-target
+#| echo: true
+library(targets)
+metadata <- tar_read(clean_metadata)
+measurements <- tar_read(measurements)
+head(metadata)
+head(measurements)
+~~~
+
+~~~{r}
+#| label: sample-count
+nrow(metadata)
+~~~
