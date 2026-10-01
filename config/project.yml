@@ -1,0 +1,14 @@
+project_id: replace-me
+project_title: Reproducible R research compendium
+owner: Threezs
+species: Mus musculus
+assay: bulk RNA-seq
+primary_contrast: treatment_vs_control
+data_policy: raw and sensitive data stay outside Git
+main_language: R
+optional_languages:
+  - Python
+  - Nextflow
+thresholds:
+  adjusted_p: 0.05
+  absolute_log2fc: 1
