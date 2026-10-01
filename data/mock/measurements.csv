@@ -1,0 +1,9 @@
+gene_id,sample_id,value
+GeneA,C01,10
+GeneA,C02,12
+GeneA,T01,24
+GeneA,T02,27
+GeneB,C01,50
+GeneB,C02,48
+GeneB,T01,42
+GeneB,T02,40
