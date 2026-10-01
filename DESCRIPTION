@@ -1,0 +1,8 @@
+Package: researchcompendium
+Type: Project
+Title: R-first reproducible research compendium
+Version: 0.1.0
+Authors@R: person("Zize", "Zhao", email = "3186155403@qq.com", role = c("aut", "cre"))
+Description: A template for reproducible R and bioinformatics projects.
+License: file LICENSE
+Encoding: UTF-8
