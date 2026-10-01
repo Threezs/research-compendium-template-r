@@ -1,0 +1,18 @@
+project:
+  type: website
+  render:
+    - analysis/*.qmd
+    - reports/**/*.qmd
+
+website:
+  title: "Research Compendium"
+  navbar:
+    left:
+      - href: analysis/01_data_check.qmd
+        text: Data check
+
+format:
+  html:
+    toc: true
+    code-fold: true
+    theme: cosmo
