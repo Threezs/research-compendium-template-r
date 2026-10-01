@@ -1,0 +1,5 @@
+sample_id,group,batch
+C01,control,1
+C02,control,1
+T01,treatment,1
+T02,treatment,2
